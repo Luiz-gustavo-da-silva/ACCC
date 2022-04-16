@@ -1,0 +1,73 @@
+#section_sobrenos{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+#section_sobrenos h1{
+    text-align: center;
+    font-size: 2rem;
+    /* margin-bottom: 2rem; */
+}
+#section_sobrenos p{
+    width: 60vmax;
+    line-height: 2.3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+#section_sobrenos div >div{
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 2rem;
+}
+#sobrenos_seta div{
+    display: block;
+}
+#sobrenos_seta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button-doacao{
+    background:none;
+    border: solid 2px white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    cursor:pointer ;
+}
+#modulo-inferior-sobrenos > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#modulo-inferior-sobrenos img{
+    width: 3vmax;
+    height: auto;
+}
+@media (max-width:720px){
+    #section_sobrenos h1{
+        font-size: 5vmin;
+    }
+    #section_sobrenos p{
+        font-size: 0.8rem;
+        line-height:1.2rem;
+        text-align: center;
+        text-align: justify;
+    }
+    #section_sobrenos{
+    display: flex;
+    justify-content: center;
+    }
+
+    #section_sobrenos p{
+        width: 70vmin;
+    }
+    #section_sobrenos {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+}
