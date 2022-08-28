@@ -31,6 +31,9 @@
     justify-content: center;
     align-items: center;
 }
+#seta{
+    font-size: 4vmax;
+}
 #button-doacao{
     background:none;
     border: solid 2px white;

@@ -1,0 +1,12 @@
+#erro_nome_form{
+    display: none;
+    color: red;
+}
+#erro_email_form{
+    display: none;
+    color: red;
+}
+#erro_mensagem_form{
+    display: none;
+    color: red;
+}

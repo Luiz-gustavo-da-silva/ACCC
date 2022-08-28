@@ -45,13 +45,13 @@
     font-size: 2rem;
 }
 #modal-foto p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 #modal-foto div div{
     margin-bottom: 1rem;
 }
 #modal-foto h1, #modal-foto p{
-    color: white;
+    /* color: white; */
 }
 #modal_div_direita{
     padding: 1rem;
@@ -84,6 +84,7 @@
 .modal-button:hover{
     border-bottom: solid 2px rgb(122, 0, 0);
     background: rgba(122, 0, 0, 0.6);
+    color: #FFF;
 }
 .modulos_economia{
     display: block;

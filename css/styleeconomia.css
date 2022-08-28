@@ -12,7 +12,7 @@
     gap: 1rem;
 }
 #mod_eco_1{
-    background: url(../img/corn-3663086.jpg) no-repeat;
+    background: url(../img/graos_1.png) no-repeat;
     background-size: cover;
     display: flex;
     /* justify-content: center; */
@@ -20,14 +20,14 @@
 }
 
 #mod_eco_2{
-    background: url(../img/eggs-944495.jpg) no-repeat;
+    background: url(../img/ovos_1.png) no-repeat;
     background-size: cover;
     display: flex;
     /* justify-content: center; */
     align-items: flex-end;
 }
 #mod_eco_3{
-    background: url(../img/pig-3750943.jpg) no-repeat;
+    background: url(../img/carne_1.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -35,32 +35,14 @@
     align-items: flex-end;
 }
 #mod_eco_4{
-    background: url(../img/salad-2325910.jpg) no-repeat;
+    background: url(../img/horta_1.png) no-repeat;
     background-size: cover;
     display: flex;
     /* justify-content: center; */
     align-items: flex-end;
 }
 
-.modulos_economia:hover{
-    /* opacity: 0.6; */
-}
-#mod_eco_1:hover{
-    width: 17vmax;
-    height: 41vmax;
-}
-#mod_eco_2:hover{
-    width: 17vmax;
-    height: 41vmax;
-}
-#mod_eco_3:hover{
-    width: 17vmax;
-    height: 41vmax;
-}
-#mod_eco_4:hover{
-    width: 17vmax;
-    height: 41vmax;
-}
+
 .modulos_economia h1{
     font-size: 2.5vmax;
     padding: 1rem;
