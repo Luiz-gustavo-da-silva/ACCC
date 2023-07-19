@@ -1,0 +1,116 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper__slide {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50px;
+  width: 25rem !important;
+  height: 30rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  overflow: hidden;
+}
+
+#divHortalicas {
+  background-image: url(/assets/hortalicas.png);
+  height: 100%;
+  background-size: cover;
+}
+
+#divCarnes {
+  background-image: url(/assets/carneanimais.png);
+  height: 100%;
+  background-size: cover;
+}
+
+#divfrutas {
+  background-image: url(/assets/frutas.png);
+  height: 100%;
+  background-size: cover;
+}
+
+#divSementes {
+  background-image: url(/assets/sementes.png);
+  height: 100%;
+  background-size: cover;
+}
+
+#divOvos {
+  background-image: url(/assets/ovos.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.capaEscura {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: space-between;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.capaEscura div:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.capaEscura div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.containerHeader {
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.divConteudoCard {
+  color: #fff;
+}
+
+.swiper__slide:hover .capaEscura {
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .containerHeader {
+    width: 95%;
+    margin: auto;
+  }
+
+  .swiper__slide {
+    width: 95vw !important;
+    height: 20rem !important;
+  }
+
+  .container {
+    height: 50vh;
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}

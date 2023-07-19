@@ -1,0 +1,39 @@
+.button {
+  background: #f5c211;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button2 {
+  background: #fff;
+  color: #f5c211;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.button2:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 768px) {
+    .button2{
+        font-size: 0.8em;
+        padding: 0.6rem 0.8rem;
+    }
+    .button{
+        font-size: 0.8em;
+        padding: 0.6rem 0.8rem;
+    }
+}

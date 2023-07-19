@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1280px;
+}
+
+.modulo__capa {
+  background-color: antiquewhite;
+  height: 95vh;
+  width: 100%;
+  border-radius: 60px;
+  background-image: url(/assets/capa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    height: 50vh;
+    width: 95%;
+  }
+  .modulo__capa{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}

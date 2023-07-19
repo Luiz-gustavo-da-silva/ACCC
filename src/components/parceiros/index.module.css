@@ -1,0 +1,144 @@
+.container {
+  height: 100vh;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container__p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.container__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "parceiro1 parceiro1 parceiro2 parceiro2 parceiro3 parceiro3 parceiro4 parceiro4"
+    "parceiro15 parceiro5 parceiro5 parceiro6 parceiro6 parceiro7 parceiro7 parceiro16"
+    "parceiro8 parceiro8 parceiro9 parceiro9 parceiro10 parceiro10 parceiro11 parceiro11"
+    "parceiro17 parceiro12 parceiro12 parceiro13 parceiro13 parceiro14 parceiro14 parceiro18";
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.celula {
+  border-radius: 15px;
+  height: 5rem;
+  overflow: hidden;
+}
+
+#parceiro1 {
+  grid-area: parceiro1;
+  background: #e7e7e75d;
+}
+
+#parceiro2 {
+  grid-area: parceiro2;
+  background: #e7e7e75d;
+}
+
+#parceiro3 {
+  grid-area: parceiro3;
+  background: #e7e7e75d;
+}
+
+#parceiro4 {
+  grid-area: parceiro4;
+  background: #e7e7e75d;
+}
+
+#parceiro5 {
+  grid-area: parceiro5;
+  background: #e7e7e75d;
+}
+
+#parceiro6 {
+  grid-area: parceiro6;
+  background: #e7e7e75d;
+}
+
+#parceiro7 {
+  grid-area: parceiro7;
+  background: #e7e7e75d;
+}
+
+#parceiro8 {
+  grid-area: parceiro8;
+  background: #e7e7e75d;
+}
+
+#parceiro9 {
+  grid-area: parceiro9;
+  background: #e7e7e75d;
+}
+
+#parceiro10 {
+  grid-area: parceiro10;
+  background: #e7e7e75d;
+}
+
+#parceiro11 {
+  grid-area: parceiro11;
+  background: #e7e7e75d;
+}
+
+#parceiro12 {
+  grid-area: parceiro12;
+  background: #e7e7e75d;
+}
+
+#parceiro13 {
+  grid-area: parceiro13;
+  background: #e7e7e75d; 
+}
+
+#parceiro14 {
+  grid-area: parceiro14;
+  background: #e7e7e75d;
+}
+
+@media screen and (max-width: 1200px) {
+  .container__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "parceiro1 parceiro2" 
+      "parceiro3 parceiro4" 
+      "parceiro5 parceiro6" 
+      "parceiro7 parceiro8"
+      "parceiro9 parceiro10" 
+      "parceiro11 parceiro12" 
+      "parceiro13 parceiro14";
+      /* "parceiro15 parceiro16"
+      "parceiro17 parceiro18"; */
+    gap: 1rem;
+  }
+  .container {
+    height: auto;
+    width: 95%;
+    margin: auto;
+  }
+  #parceiro15{
+    display: none;
+  }
+  #parceiro16{
+    display: none;
+  }
+  #parceiro17{
+    display: none;
+  }
+  #parceiro18{
+    display: none;
+  }
+  .container__p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
