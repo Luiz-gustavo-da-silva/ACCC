@@ -16,8 +16,6 @@
     height: 50px;
 }
 
-/*.scrolled{
-    transition: 0.2s;
-    background-color: rgba(245, 194, 17, 0.1); 
-    backdrop-filter: blur(8px);
-}*/
+.link:hover{
+    border-bottom: 2px solid #f5c211;
+}
