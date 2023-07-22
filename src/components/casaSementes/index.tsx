@@ -3,7 +3,10 @@ import style from "./index.module.css";
 const CasaSementes = () => {
   return (
     <div className={style.container}>
-      <div>Casa de sementes</div>
+      <div className={style.container__tituloSessoes}>
+        <h2>Casa de sementes. </h2> 
+        <span>Conheça nossa iniciativa de auto-suficiência.</span>
+      </div>
       <div className={style.container__div}>
         <div className={style.container__grid}>
           <div id={style.modulo1} className={style.celula}>

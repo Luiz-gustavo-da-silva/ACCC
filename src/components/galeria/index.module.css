@@ -41,31 +41,39 @@
 
 #img1 {
   grid-area: img1;
-  background-color: aqua;
 }
 #img2 {
   grid-area: img2;
-  background-color:red;
 }
 #img3 {
   grid-area: img3;
-  background-color: green;
 }
 #img4 {
-  grid-area: img4;
-  background-color: blue;
+  grid-area: img4;  
 }
 #img5 {
   grid-area: img5;
-  background-color: wheat;
 }
 #img6 {
   grid-area: img6;
-  background-color: coral;
 }
 #img7 {
   grid-area: img7;
-  background-color: palevioletred;
+}
+
+.container__tituloSessoes{
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.container__tituloSessoes h2{
+  color: #1d1d1f;
+}
+
+.container__tituloSessoes span{
+  color: #6e6e73;
 }
 
 @media screen and (max-width: 1200px) {

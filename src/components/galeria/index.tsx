@@ -5,7 +5,7 @@ const Galeria = () => {
   return (
     <div className={style.container}>
         <div className={style.container__header}>
-            <div><h3>Galeria</h3></div>
+            <div className={style.container__tituloSessoes}><h2>Galeria. </h2><span> Veja alguns dos nossos registros.</span></div>
             <div><Button nome={"Vizualizar todas"} tipo={1}/></div>
         </div>
 

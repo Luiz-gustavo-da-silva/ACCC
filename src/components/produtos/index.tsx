@@ -9,15 +9,15 @@ import { Navigation } from "swiper/modules";
 const Produtos = () => {
   return (
     <>
-      <div className={style.containerHeader}>
-        <h2>Conheça nossos produtos</h2>
+      <div className={style.container__tituloSessoes}>
+        <h2>Produtos. </h2> <span>Compre já os nossos produtos.</span>
       </div>
       <div className={style.container}>
         <Swiper
           breakpoints={{
             // Configurações para dispositivos de tela grande (desktop)
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 30,
             },
             // Configurações para dispositivos de tela média e pequena
@@ -26,7 +26,7 @@ const Produtos = () => {
               spaceBetween: 10,
             },
           }}
-          centeredSlides={true}
+          centeredSlides={false}
           navigation={true}
           modules={[Navigation]}
           className="mySwiper"
@@ -35,6 +35,10 @@ const Produtos = () => {
             <div className={style.capaEscura}>
               <div>
                 <p>Hortaliças</p>
+                {/* <p>texto aleatório texto aleatório</p> */}
+              </div>
+              <div>
+                <img src="/assets/horta.svg" alt="" className={style.imgSlide}/>
               </div>
               <div>
                 <Button nome={"Compre agora"} tipo={1} />
@@ -48,6 +52,9 @@ const Produtos = () => {
                 <p>Carnes e animais</p>
               </div>
               <div>
+                <img src="/assets/carne.svg" alt="" className={style.imgSlide}/>
+              </div>
+              <div>
                 <Button nome={"Compre agora"} tipo={1} />
               </div>
             </div>
@@ -57,6 +64,9 @@ const Produtos = () => {
             <div className={style.capaEscura}>
               <div>
                 <p>Frutas</p>
+              </div>
+              <div>
+                <img src="/assets/fruta.svg" alt="" className={style.imgSlide}/>
               </div>
               <div>
                 <Button nome={"Compre agora"} tipo={1} />
@@ -70,6 +80,9 @@ const Produtos = () => {
                 <p>Sementes</p>
               </div>
               <div>
+                <img src="/assets/semente.svg" alt=""className={style.imgSlide} />
+              </div>
+              <div>
                 <Button nome={"Compre agora"} tipo={1} />
               </div>
             </div>
@@ -79,6 +92,9 @@ const Produtos = () => {
             <div className={style.capaEscura}>
               <div>
                 <p>Ovos</p>
+              </div>
+              <div>
+                <img src="/assets/ovo.svg" alt="" className={style.imgSlide}/>
               </div>
               <div>
                 <Button nome={"Compre agora"} tipo={1} />
