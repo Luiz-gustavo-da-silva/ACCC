@@ -35,7 +35,6 @@ const Produtos = () => {
             <div className={style.capaEscura}>
               <div>
                 <p>HORTALIÇAS</p>
-                
               </div>
               <div>
                 <img src="/assets/horta.svg" alt="" className={style.imgSlide}/>

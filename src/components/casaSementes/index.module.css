@@ -89,6 +89,8 @@
     width: 95%;
     margin: auto;
     height: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 
   .container__div{

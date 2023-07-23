@@ -38,7 +38,7 @@
 
 .container__infos {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .textosSuperior {
@@ -49,7 +49,7 @@
 
 .textosSuperior p {
   text-align: justify;
-  color: #6E6E73;
+  color: #6e6e73;
 }
 
 .icon{
@@ -69,6 +69,8 @@
 
 .container__infosParceirosAssociados p{
     font-size: 0.8em;
+    text-align: justify;
+    color: #6e6e73;
 }
 
 #img1{
@@ -131,12 +133,21 @@
     z-index: 10000;
 }
 
+.img__icon{
+  height: 30px;
+  width: auto;
+}
+
+.container__infosParceirosAssociados h3{
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1200px) {
   .container {
     width: 95%;
     height: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 
   .container__grid {
@@ -162,6 +173,12 @@
     font-size: 0.8em;
   }
 
+  .modulos h1 {
+    font-size: 1.4em;
+    color: #1d1d1f;
+    text-align: start;
+  }
+  
   
 }
 

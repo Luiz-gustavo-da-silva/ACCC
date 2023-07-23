@@ -20,7 +20,7 @@ const SobreNos = () => {
 
             <div className={style.container__infos}>
               <div className={style.container__infosParceirosAssociados}>
-                <UserOutlined className={style.icon}/>
+                <img src="/assets/parceiros.svg" className={style.img__icon} alt="" />
                 <h3>Associados</h3>
                 <p>
                   texto de exemplo aaaa atexto de exemplo aaaaa texto deexemplo
@@ -29,8 +29,8 @@ const SobreNos = () => {
               </div>
 
               <div className={style.container__infosParceirosAssociados}>
-                <UserOutlined className={style.icon}/>
-                <h3>Associados</h3>
+                <img src="/assets/socios.svg" className={style.img__icon} alt="" />
+                <h3>Parceiros</h3>
                 <p>
                   texto de exemplo aaaa atexto de exemplo aaaaa texto deexemplo
                   aaaa atexto de exemplo aaaaa
