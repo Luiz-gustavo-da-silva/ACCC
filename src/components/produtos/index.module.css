@@ -16,7 +16,7 @@
   align-items: center;
   cursor: grab;
   overflow: hidden;
-  box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 #divHortalicas {
@@ -85,11 +85,12 @@
 }
 
 .capaEscura div:nth-child(3) {
-text-align: justify;
+  text-align: justify;
+  color: #ffffffab;
 }
 
-.container__tituloSessoes{
-  font-size: 28px;  
+.container__tituloSessoes {
+  font-size: 28px;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -98,21 +99,21 @@ text-align: justify;
   margin-top: 3rem;
 }
 
-.container__tituloSessoes h2{
+.container__tituloSessoes h2 {
   color: #1d1d1f;
 }
 
-.container__tituloSessoes span{
+.container__tituloSessoes span {
   color: #6e6e73;
 }
 
-.imgSlide{
+.imgSlide {
   opacity: 0.9;
   width: 10vmax;
   height: auto;
 }
 
-.capaEscura div{
+.capaEscura div {
   width: 100%;
 }
 
@@ -133,13 +134,12 @@ text-align: justify;
     margin: auto;
   }
 
-  .container__tituloSessoes{
+  .container__tituloSessoes {
     text-align: start;
     align-items: start;
     flex-direction: column !important;
     font-size: 1.4em;
   }
-
 }
 
 @media screen and (max-width: 768px) {

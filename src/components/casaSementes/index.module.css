@@ -96,6 +96,13 @@
     margin-bottom: 3rem;
   }
 
+  .container__tituloSessoes {
+    text-align: start;
+    align-items: start;
+    flex-direction: column !important;
+    font-size: 1.4em;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {

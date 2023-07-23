@@ -15,7 +15,7 @@
 
 .container h1 {
   font-size: 5vmax;
-  color: #575760;
+  color: #6e6e73;
 }
 
 @media screen and (max-width: 1200px) {
@@ -38,5 +38,14 @@
   }
   .br {
     display: none;
+  }
+
+  .container {
+    width: 95%;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
   }
 }

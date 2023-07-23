@@ -76,6 +76,26 @@
   color: #6e6e73;
 }
 
+/* .containerSlide{
+  height: 60vh;
+} */
+
+.swiper__slide{
+  height: 6rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.swiper__slide img{
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+}
+
+.containerSlide{
+  margin-top: 3rem;
+}
+
 @media screen and (max-width: 1200px) {
   .container__grid {
     display: grid;
@@ -94,6 +114,17 @@
   .container{
     width: 95%;
     margin: auto;
+  }
+
+  .container__grid{
+    display: none;
+  }
+
+  .container__tituloSessoes {
+    text-align: start;
+    align-items: start;
+    flex-direction: column !important;
+    font-size: 1.4em;
   }
 }
 

@@ -8,13 +8,43 @@
 }
 
 .modulo__capa {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   height: 95vh;
   width: 100%;
-  border-radius: 60px;
+  border-radius: 30px;
   background-image: url(/assets/capa.png);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
+}
+
+.capaEscura{
+  opacity: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capaEscura > div{
+  display: flex;
+  gap: 5rem;
+}
+
+.capaEscura  p{
+  color: #ffffffab;
+}
+
+.capaEscura  span{
+  font-size: 8em;
+}
+
+.modulo__capa:hover .capaEscura {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: 0.2s ease;
 }
 
 @media screen and (max-width: 1200px) {
@@ -26,6 +56,14 @@
     height: 100%;
     background-size: cover;
     background-position: center;
+  }
+  
+  .capaEscura > div{
+    gap: 2rem;
+  }
+
+  .capaEscura  span{
+    font-size: 4em;
   }
 }
 
