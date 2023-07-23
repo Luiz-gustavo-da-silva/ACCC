@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Button from "../button";
+// import Button from "../button";
 import { Navigation } from "swiper/modules";
 
 const Produtos = () => {
@@ -34,14 +34,15 @@ const Produtos = () => {
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
-                <p>Hortaliças</p>
-                {/* <p>texto aleatório texto aleatório</p> */}
+                <p>HORTALIÇAS</p>
+                
               </div>
               <div>
                 <img src="/assets/horta.svg" alt="" className={style.imgSlide}/>
               </div>
               <div>
-                <Button nome={"Compre agora"} tipo={1} />
+              <p>Somos produtores de hortaliças. Coentro, cebolinha, cenoura, pimentão, beterraba e, entre outros.</p>
+                {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
             <div id={style.divHortalicas}></div>
@@ -49,13 +50,15 @@ const Produtos = () => {
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
-                <p>Carnes e animais</p>
+                <p>CARNES E ANIMAIS</p>
+                
               </div>
               <div>
                 <img src="/assets/carne.svg" alt="" className={style.imgSlide}/>
               </div>
               <div>
-                <Button nome={"Compre agora"} tipo={1} />
+              <p>Somos criadores de animais. Aves, suínos, bovinos e caprinos.</p>
+                {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
             <div id={style.divCarnes} className={style.divConteudoCard}></div>
@@ -63,13 +66,15 @@ const Produtos = () => {
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
-                <p>Frutas</p>
+                <p>FRUTAS</p>
+                
               </div>
               <div>
                 <img src="/assets/fruta.svg" alt="" className={style.imgSlide}/>
               </div>
               <div>
-                <Button nome={"Compre agora"} tipo={1} />
+              <p>Plantamos e cuidamos de espécies frutíferas. Caju, umbu, maracujá, mamão, pinha, banana, tomate.</p>
+                {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
             <div id={style.divfrutas} className={style.divConteudoCard}></div>
@@ -77,13 +82,15 @@ const Produtos = () => {
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
-                <p>Sementes</p>
+                <p>SEMENTES</p>
+                
               </div>
               <div>
                 <img src="/assets/semente.svg" alt=""className={style.imgSlide} />
               </div>
               <div>
-                <Button nome={"Compre agora"} tipo={1} />
+              <p>Plantamos e colhemos sementes nas suas estaçoes. Milho, feijão, fava e, entre outros.</p>
+                {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
             <div id={style.divSementes} className={style.divConteudoCard}></div>
@@ -91,13 +98,15 @@ const Produtos = () => {
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
-                <p>Ovos</p>
+                <p>OVOS</p>
+                
               </div>
               <div>
                 <img src="/assets/ovo.svg" alt="" className={style.imgSlide}/>
               </div>
               <div>
-                <Button nome={"Compre agora"} tipo={1} />
+              <p>Criamos aves para venda e produção de ovos. Ovo caipira de galinha, codornae, entre outros.</p>
+                {/* <Button nome={"Compre agora"} tipo={2} /> */}
               </div>
             </div>
             <div id={style.divOvos} className={style.divConteudoCard}></div>

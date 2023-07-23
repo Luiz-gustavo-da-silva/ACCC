@@ -67,14 +67,25 @@
 
 .capaEscura div:nth-child(1) {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
+  align-items: start;
+  gap: 0.8rem;
+}
+
+.capaEscura div p:nth-child(2) {
+  font-size: 0.8em;
+  text-align: start;
+}
+
+.capaEscura div:nth-child(2) {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .capaEscura div:nth-child(3) {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+text-align: justify;
 }
 
 .container__tituloSessoes{
@@ -121,6 +132,14 @@
     width: 95%;
     margin: auto;
   }
+
+  .container__tituloSessoes{
+    text-align: start;
+    align-items: start;
+    flex-direction: column !important;
+    font-size: 1.4em;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
