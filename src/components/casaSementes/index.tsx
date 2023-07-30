@@ -1,10 +1,11 @@
 import style from "./index.module.css";
+import Container from "react-bootstrap/Container";
 
 const CasaSementes = () => {
   return (
-    <div className={style.container}>
+    <Container fluid="md" className={style.container}>
       <div className={style.container__tituloSessoes}>
-        <h2>Casa de sementes. </h2> 
+        <h2>Casa de sementes. </h2>
         <span>Conheça nossa iniciativa de auto-suficiência.</span>
       </div>
       <div className={style.container__div}>
@@ -19,7 +20,7 @@ const CasaSementes = () => {
                 Em maior quantidade:
                 <span>Feijão</span>
                 <span>Milho</span>
-                <span>Fava</span> 
+                <span>Fava</span>
               </p>
             </div>
           </div>
@@ -46,7 +47,7 @@ const CasaSementes = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

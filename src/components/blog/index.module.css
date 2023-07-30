@@ -1,8 +1,3 @@
-.container {
-  width: 1280px;
-  margin: auto;
-  /* margin-top: 5rem; */
-}
 
 .container__header {
   display: flex;
@@ -22,13 +17,11 @@
 }
 
 .celula {
-  /* background: red; */
   height: 25rem;
 }
 
 .celula2 {
   height: 100%;
-  /* background: red; */
 }
 
 #modulo1 {
@@ -165,7 +158,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  /* height: 100%; */
   gap: 1.5rem;
 }
 
@@ -276,7 +269,7 @@
     border-radius: 30px;
   }
   .celula {
-    /* background: red; */
+
     height: auto;
   }
 
@@ -318,4 +311,5 @@
 }
 
 @media screen and (max-width: 768px) {
+  
 }

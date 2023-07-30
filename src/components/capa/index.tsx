@@ -1,8 +1,10 @@
 import style from "./index.module.css";
+import Container from 'react-bootstrap/Container';
 
 const Capa = () => {
   return (
-    <div className={style.container}>
+    <Container fluid="md" className={style.container}>
+    {/* <div className={style.container}> */}
       <div className={style.modulo__capa}>
         <div className={style.capaEscura}>
           <div>
@@ -17,7 +19,8 @@ const Capa = () => {
           </div>
         </div>
       </div>
-    </div>
+    {/* </div> */}
+    </Container>
   );
 };
 

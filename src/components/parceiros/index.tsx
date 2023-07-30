@@ -1,8 +1,9 @@
 import style from "./index.module.css";
+import Container from "react-bootstrap/Container";
 
 const Parceiros = () => {
   return (
-    <div className={style.container}>
+    <Container fluid="md" className={style.container}>
       <div>
         <div className={style.container__p}>
           <p>
@@ -32,7 +33,7 @@ const Parceiros = () => {
           <div id={style.parceiro18} className={style.celula}></div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

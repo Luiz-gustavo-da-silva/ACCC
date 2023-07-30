@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import Button from "../button";
 import { Navigation } from "swiper/modules";
+import Container from "react-bootstrap/Container";
 
 const Galeria = () => {
   return (
-    <div className={style.container}>
+    <Container fluid="md" className={style.container}>
       <div className={style.container__header}>
         <div className={style.container__tituloSessoes}>
           <h2>Galeria. </h2>
@@ -90,7 +90,7 @@ const Galeria = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-    </div>
+    </Container>
   );
 };
 

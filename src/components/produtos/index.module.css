@@ -20,27 +20,31 @@
 }
 
 #divHortalicas {
-  background-image: url(/public/assets/hortalicas.png);
+  background-image: url(/assets/hortalicas.png);
   height: 100%;
   background-size: cover;
+  width: 100%;
 }
 
 #divCarnes {
   background-image: url(/assets/carneanimais.png);
   height: 100%;
   background-size: cover;
+  width: 100%;
 }
 
 #divfrutas {
   background-image: url(/assets/frutas.png);
   height: 100%;
   background-size: cover;
+  width: 100%;
 }
 
 #divSementes {
   background-image: url(/assets/sementes.png);
   height: 100%;
   background-size: cover;
+  width: 100%;
 }
 
 #divOvos {
@@ -48,6 +52,7 @@
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 .capaEscura {
@@ -94,8 +99,6 @@
   font-weight: 600;
   display: flex;
   align-items: center;
-  max-width: 1280px;
-  margin: auto;
   margin-top: 3rem;
 }
 

@@ -5,13 +5,16 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import Button from "../button";
 import { Navigation } from "swiper/modules";
+import Container from 'react-bootstrap/Container';
 
 const Produtos = () => {
   return (
     <>
-      <div className={style.container__tituloSessoes}>
+    <Container fluid="md" className={style.container__tituloSessoes}>
+    
         <h2>Produtos. </h2> <span>Compre já os nossos produtos.</span>
-      </div>
+ 
+      </Container>
       <div className={style.container}>
         <Swiper
           breakpoints={{

@@ -1,10 +1,11 @@
 import { UserOutlined } from "@ant-design/icons";
 import Button from "../button";
 import style from "./index.module.css";
+import Container from "react-bootstrap/Container";
 
 const SobreNos = () => {
   return (
-    <div className={style.container}>
+    <Container fluid="md" className={style.container}>
       <div className={style.container__grid}>
         <div id={style.modulo1} className={style.modulos}>
           <div>
@@ -71,7 +72,7 @@ const SobreNos = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

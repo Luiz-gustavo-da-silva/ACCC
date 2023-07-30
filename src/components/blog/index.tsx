@@ -1,14 +1,15 @@
 import Button from "../button";
 import style from "./index.module.css";
 import { CalendarOutlined } from "@ant-design/icons";
+import Container from "react-bootstrap/Container";
 
 const Blog = () => {
   return (
-    <div className={style.container}>
+    <Container fluid="md" className={style.container}>
       <div className={style.container__header}>
-      <div className={style.container__tituloSessoes}>
-        <h2>Blog.  </h2>  <span> Fique por dentro dos nossos eventos.</span>
-      </div>
+        <div className={style.container__tituloSessoes}>
+          <h2>Blog. </h2> <span> Fique por dentro dos nossos eventos.</span>
+        </div>
         <div>
           <Button nome={"Visualizar todas"} tipo={1} />
         </div>
@@ -36,7 +37,6 @@ const Blog = () => {
                 aleatório aqui Texto Texto aleatório aqui Texto aleatório aqui
                 Texto Texto aleatório aqui Texto aleatório aleatório aqui Texto.
               </p>
-              
             </div>
 
             <div className={style.container__infoInferior}>
@@ -75,7 +75,6 @@ const Blog = () => {
                 aleatório aqui Texto Texto aleatório aqui Texto aleatório aqui
                 Texto Texto aleatório aqui Texto aleatório aleatório aqui Texto.
               </p>
-              
             </div>
 
             <div className={style.container__infoInferior}>
@@ -97,9 +96,6 @@ const Blog = () => {
             </div>
           </div>
         </div>
-
-
-
 
         <div className={style.celula2} id={style.modulo3}>
           <div className={style.container__imgNoticias}>
@@ -138,7 +134,6 @@ const Blog = () => {
           </div>
         </div>
 
-
         <div className={style.celula2} id={style.modulo4}>
           <div className={style.container__imgNoticias}>
             <img src="/assets/capa.png" alt="" />
@@ -176,7 +171,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 
