@@ -101,6 +101,45 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .container__p {
+    width: 100%;
+  }
+
+  .container {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5rem;
+  }
+
+  .container__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "parceiro1 parceiro2 parceiro3"
+      "parceiro4 parceiro5 parceiro6"
+      "parceiro7 parceiro8 parceiro9"
+      "parceiro10 parceiro11 parceiro12"
+      "parceiro13 parceiro14 parceiro15";
+    gap: 1rem;
+  }
+
+  #parceiro15 {
+    display: none;
+  }
+  #parceiro16 {
+    display: none;
+  }
+  #parceiro17 {
+    display: none;
+  }
+  #parceiro18 {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
   .container__grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -114,25 +153,5 @@
       "parceiro13 parceiro14";
     gap: 1rem;
   }
-  .container {
-    height: auto;
-    width: 100%;
-    margin: auto;
-    padding-bottom: 5rem;
-  }
-  #parceiro15 {
-    display: none;
-  }
-  #parceiro16 {
-    display: none;
-  }
-  #parceiro17 {
-    display: none;
-  }
-  #parceiro18 {
-    display: none;
-  }
-  .container__p {
-    width: 100%;
-  }
+  
 }

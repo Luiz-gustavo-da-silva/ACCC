@@ -112,7 +112,7 @@
 
 .imgSlide {
   opacity: 0.9;
-  width: 10vmax;
+  width: 7vmax;
   height: auto;
 }
 
@@ -122,8 +122,8 @@
 
 @media screen and (max-width: 1200px) {
   .swiper__slide {
-    width: 45vw !important;
-    height: 20rem !important;
+    width: 30vw !important;
+    height: 25rem !important;
   }
   .container__tituloSessoes {
     width: 100%;
@@ -131,8 +131,7 @@
   }
 
   .container {
-    height: 50vh;
-    /* width: 95%; */
+    height: auto;
     margin: auto;
   }
 
@@ -141,6 +140,7 @@
     align-items: start;
     flex-direction: column !important;
     font-size: 1.4em;
+    padding-bottom: 2rem;
   }
 }
 
@@ -154,5 +154,9 @@
     height: 50vh;
     width: 95%;
     margin: auto;
+  }
+
+  .container__tituloSessoes {
+    padding-bottom: 0;
   }
 }

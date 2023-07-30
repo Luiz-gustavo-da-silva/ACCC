@@ -23,7 +23,7 @@ const Produtos = () => {
             // Configurações para dispositivos de tela média (tablets)
             768: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 30,
             },
             // Configurações para dispositivos de tela pequena (mobile)
             0: {
