@@ -37,10 +37,17 @@ const Produtos = () => {
                 <p>HORTALIÇAS</p>
               </div>
               <div>
-                <img src="/assets/horta.svg" alt="" className={style.imgSlide}/>
+                <img
+                  src="/assets/horta.svg"
+                  alt=""
+                  className={style.imgSlide}
+                />
               </div>
               <div>
-              <p>Somos produtores de hortaliças. Coentro, cebolinha, cenoura, pimentão, beterraba e, entre outros.</p>
+                <p>
+                  Somos produtores de hortaliças. Coentro, cebolinha, cenoura,
+                  pimentão, beterraba e, entre outros.
+                </p>
                 {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
@@ -50,65 +57,84 @@ const Produtos = () => {
             <div className={style.capaEscura}>
               <div>
                 <p>CARNES E ANIMAIS</p>
-                
               </div>
               <div>
-                <img src="/assets/carne.svg" alt="" className={style.imgSlide}/>
+                <img
+                  src="/assets/carne.svg"
+                  alt=""
+                  className={style.imgSlide}
+                />
               </div>
               <div>
-              <p>Somos criadores de animais. Aves, suínos, bovinos e caprinos.</p>
+                <p>
+                  Somos criadores de animais. Aves, suínos, bovinos e caprinos.
+                </p>
                 {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
-            <div id={style.divCarnes} className={style.divConteudoCard}></div>
+            <div id={style.divCarnes} ></div>
           </SwiperSlide>
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
                 <p>FRUTAS</p>
-                
               </div>
               <div>
-                <img src="/assets/fruta.svg" alt="" className={style.imgSlide}/>
+                <img
+                  src="/assets/fruta.svg"
+                  alt=""
+                  className={style.imgSlide}
+                />
               </div>
               <div>
-              <p>Plantamos e cuidamos de espécies frutíferas. Caju, umbu, maracujá, mamão, pinha, banana, tomate.</p>
+                <p>
+                  Plantamos e cuidamos de espécies frutíferas. Caju, umbu,
+                  maracujá, mamão, pinha, banana, tomate.
+                </p>
                 {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
-            <div id={style.divfrutas} className={style.divConteudoCard}></div>
+            <div id={style.divfrutas}></div>
           </SwiperSlide>
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
                 <p>SEMENTES</p>
-                
               </div>
               <div>
-                <img src="/assets/semente.svg" alt=""className={style.imgSlide} />
+                <img
+                  src="/assets/semente.svg"
+                  alt=""
+                  className={style.imgSlide}
+                />
               </div>
               <div>
-              <p>Plantamos e colhemos sementes nas suas estaçoes. Milho, feijão, fava e, entre outros.</p>
+                <p>
+                  Plantamos e colhemos sementes nas suas estaçoes. Milho,
+                  feijão, fava e, entre outros.
+                </p>
                 {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
-            <div id={style.divSementes} className={style.divConteudoCard}></div>
+            <div id={style.divSementes}></div>
           </SwiperSlide>
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
               <div>
                 <p>OVOS</p>
-                
               </div>
               <div>
-                <img src="/assets/ovo.svg" alt="" className={style.imgSlide}/>
+                <img src="/assets/ovo.svg" alt="" className={style.imgSlide} />
               </div>
               <div>
-              <p>Criamos aves para venda e produção de ovos. Ovo caipira de galinha, codornae, entre outros.</p>
+                <p>
+                  Criamos aves para venda e produção de ovos. Ovo caipira de
+                  galinha, codornae, entre outros.
+                </p>
                 {/* <Button nome={"Compre agora"} tipo={2} /> */}
               </div>
             </div>
-            <div id={style.divOvos} className={style.divConteudoCard}></div>
+            <div id={style.divOvos}></div>
           </SwiperSlide>
         </Swiper>
       </div>

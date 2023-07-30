@@ -20,7 +20,7 @@
 }
 
 #divHortalicas {
-  background-image: url(/assets/hortalicas.png);
+  background-image: url(/public/assets/hortalicas.png);
   height: 100%;
   background-size: cover;
 }

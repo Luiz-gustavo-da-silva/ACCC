@@ -22,7 +22,7 @@ function App() {
       <SobreNos/>
       <Produtos/>
       <CasaSementes/>
-      {/* <Blog/> */}
+      <Blog/>
       <Galeria/>
       <Contatos/>
       <Parceiros/>

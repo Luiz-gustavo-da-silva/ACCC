@@ -94,9 +94,16 @@
 
 .containerSlide{
   margin-top: 3rem;
+  display: none !important;
 }
 
+
+
 @media screen and (max-width: 1200px) {
+  .containerSlide{
+    display: flex !important;
+  }
+
   .container__grid {
     display: grid;
     grid-template-columns: 1fr;

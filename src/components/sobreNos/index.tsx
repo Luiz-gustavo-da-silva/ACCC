@@ -9,7 +9,9 @@ const SobreNos = () => {
         <div id={style.modulo1} className={style.modulos}>
           <div>
             <div className={style.textosSuperior}>
-              <h1>Associação Comunitária Catolé e Cabaceiras </h1>
+              <div className={style.container__tituloSessoes}>
+                <span>Conheça um pouco da nossa associação.</span>
+              </div>
               <p>
                 Texto aleatório aqui Texto aleatório aqui Texto Texto aleatório
                 aqui Texto aleatório aleatório aqui Texto aleatório aqui
@@ -20,7 +22,11 @@ const SobreNos = () => {
 
             <div className={style.container__infos}>
               <div className={style.container__infosParceirosAssociados}>
-                <img src="/assets/parceiros.svg" className={style.img__icon} alt="" />
+                <img
+                  src="/assets/parceiros.svg"
+                  className={style.img__icon}
+                  alt=""
+                />
                 <h3>Associados</h3>
                 <p>
                   texto de exemplo aaaa atexto de exemplo aaaaa texto deexemplo
@@ -29,7 +35,11 @@ const SobreNos = () => {
               </div>
 
               <div className={style.container__infosParceirosAssociados}>
-                <img src="/assets/socios.svg" className={style.img__icon} alt="" />
+                <img
+                  src="/assets/socios.svg"
+                  className={style.img__icon}
+                  alt=""
+                />
                 <h3>Parceiros</h3>
                 <p>
                   texto de exemplo aaaa atexto de exemplo aaaaa texto deexemplo

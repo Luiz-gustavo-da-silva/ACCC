@@ -6,9 +6,9 @@ const Blog = () => {
   return (
     <div className={style.container}>
       <div className={style.container__header}>
-        <div>
-          <h3>Últimas notícias</h3>
-        </div>
+      <div className={style.container__tituloSessoes}>
+        <h2>Blog.  </h2>  <span> Fique por dentro dos nossos eventos.</span>
+      </div>
         <div>
           <Button nome={"Visualizar todas"} tipo={1} />
         </div>
@@ -36,6 +36,7 @@ const Blog = () => {
                 aleatório aqui Texto Texto aleatório aqui Texto aleatório aqui
                 Texto Texto aleatório aqui Texto aleatório aleatório aqui Texto.
               </p>
+              
             </div>
 
             <div className={style.container__infoInferior}>
@@ -74,6 +75,7 @@ const Blog = () => {
                 aleatório aqui Texto Texto aleatório aqui Texto aleatório aqui
                 Texto Texto aleatório aqui Texto aleatório aleatório aqui Texto.
               </p>
+              
             </div>
 
             <div className={style.container__infoInferior}>

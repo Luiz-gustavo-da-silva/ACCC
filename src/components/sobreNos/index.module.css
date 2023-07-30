@@ -138,8 +138,24 @@
   width: auto;
 }
 
+.container__tituloSessoes {
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
+
 .container__infosParceirosAssociados h3{
   font-weight: 600;
+}
+
+.container__tituloSessoes h2 {
+  color: #1d1d1f;
+}
+
+.container__tituloSessoes span {
+  color: #6e6e73;
 }
 
 @media screen and (max-width: 1200px) {
@@ -178,6 +194,7 @@
     color: #1d1d1f;
     text-align: start;
   }
+  
   
   
 }
