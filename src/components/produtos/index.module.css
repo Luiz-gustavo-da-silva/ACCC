@@ -121,19 +121,18 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .container__tituloSessoes {
-    width: 95%;
-    margin: auto;
-  }
-
   .swiper__slide {
-    width: 95vw !important;
+    width: 45vw !important;
     height: 20rem !important;
+  }
+  .container__tituloSessoes {
+    width: 100%;
+    margin: auto;
   }
 
   .container {
     height: 50vh;
-    width: 95%;
+    /* width: 95%; */
     margin: auto;
   }
 
@@ -146,4 +145,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .swiper__slide {
+    width: 95vw !important;
+    height: 20rem !important;
+  }
+
+  .container {
+    height: 50vh;
+    width: 95%;
+    margin: auto;
+  }
 }

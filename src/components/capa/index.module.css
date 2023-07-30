@@ -46,8 +46,21 @@
 
 @media screen and (max-width: 1200px) {
   .container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulo__capa {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
     height: 50vh;
-    width: 95%;
+    width: 100%;
   }
   .modulo__capa{
     height: 100%;
@@ -62,7 +75,4 @@
   .capaEscura  span{
     font-size: 4em;
   }
-}
-
-@media screen and (max-width: 768px) {
 }

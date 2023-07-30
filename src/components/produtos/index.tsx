@@ -3,17 +3,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import Button from "../button";
 import { Navigation } from "swiper/modules";
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
 
 const Produtos = () => {
   return (
     <>
-    <Container fluid="md" className={style.container__tituloSessoes}>
-    
+      <Container fluid="md" className={style.container__tituloSessoes}>
         <h2>Produtos. </h2> <span>Compre já os nossos produtos.</span>
- 
       </Container>
       <div className={style.container}>
         <Swiper
@@ -23,7 +20,12 @@ const Produtos = () => {
               slidesPerView: 3,
               spaceBetween: 30,
             },
-            // Configurações para dispositivos de tela média e pequena
+            // Configurações para dispositivos de tela média (tablets)
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            // Configurações para dispositivos de tela pequena (mobile)
             0: {
               slidesPerView: 1,
               spaceBetween: 10,
@@ -75,7 +77,7 @@ const Produtos = () => {
                 {/* <Button nome={"Compre agora"} tipo={1} /> */}
               </div>
             </div>
-            <div id={style.divCarnes} ></div>
+            <div id={style.divCarnes}></div>
           </SwiperSlide>
           <SwiperSlide className={style.swiper__slide}>
             <div className={style.capaEscura}>
