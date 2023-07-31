@@ -1,6 +1,5 @@
 import style from "./index.module.css";
 import Container from "react-bootstrap/Container";
-// import type { CollapseProps } from "antd";
 import { Collapse } from "antd";
 const { Panel } = Collapse;
 

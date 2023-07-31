@@ -1,4 +1,3 @@
-import { UserOutlined } from "@ant-design/icons";
 import Button from "../button";
 import style from "./index.module.css";
 import Container from "react-bootstrap/Container";
